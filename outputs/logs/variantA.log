@@ -1,0 +1,8 @@
+
+Results for Variant A:
+ANN Accuracy: 5.50%
+SNN Accuracy: 3.50%
+ANN MACs: 1050
+SNN Active MACs: 9934450
+MAC Reduction Ratio (ANN/SNN): 0.00
+Power Savings: 0.00%

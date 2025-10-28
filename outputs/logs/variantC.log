@@ -1,0 +1,54 @@
+Epoch 1/10:
+  Train Loss: 1.8683
+  Train Accuracy: 25.50%
+  Val Accuracy: 22.00%
+  Average Firing Rate: 0.03%
+Epoch 2/10:
+  Train Loss: 1.8397
+  Train Accuracy: 26.20%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.03%
+Epoch 3/10:
+  Train Loss: 1.8397
+  Train Accuracy: 25.80%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.03%
+Epoch 4/10:
+  Train Loss: 1.8396
+  Train Accuracy: 25.80%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.03%
+Epoch 5/10:
+  Train Loss: 1.8396
+  Train Accuracy: 25.70%
+  Val Accuracy: 22.00%
+  Average Firing Rate: 0.03%
+Epoch 6/10:
+  Train Loss: 1.8395
+  Train Accuracy: 25.40%
+  Val Accuracy: 21.00%
+  Average Firing Rate: 0.03%
+Epoch 7/10:
+  Train Loss: 1.8393
+  Train Accuracy: 25.70%
+  Val Accuracy: 21.00%
+  Average Firing Rate: 0.03%
+Epoch 8/10:
+  Train Loss: 1.8353
+  Train Accuracy: 26.00%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.04%
+Epoch 9/10:
+  Train Loss: 1.8258
+  Train Accuracy: 25.90%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.04%
+Epoch 10/10:
+  Train Loss: 1.8257
+  Train Accuracy: 25.90%
+  Val Accuracy: 21.50%
+  Average Firing Rate: 0.04%
+
+Final Results for Variant C:
+Test Accuracy: 21.50%
+Average Firing Rate: 0.04%

@@ -1,0 +1,3 @@
+Final Validation Accuracy: 5.00%
+Final Average Firing Rate: 0.01%
+Training Time: 52.38 seconds

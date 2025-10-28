@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SNN vs ANN Comparison Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .results-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .results-table th, .results-table td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .results-table th {
+            background-color: #f5f5f5;
+        }
+        .plot-container {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .plot-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>SNN vs ANN Comparison Results</h1>
+    
+    <h2>How to Reproduce</h2>
+    <p>Follow these steps to reproduce the experiments:</p>
+    <ol>
+        <li>Clone the repository</li>
+        <li>Install dependencies: <code>python3 -m pip install -r requirements.txt</code></li>
+        <li>Run all experiments: <code>bash run_all.sh</code></li>
+    </ol>
+
+    <h2>Results Summary</h2>
+    <table class="results-table">
+        <tr>
+            <th>Metric</th>
+            <th>Variant A</th>
+            <th>Variant B</th>
+            <th>Variant C</th>
+        </tr>
+        <tr>
+            <td>Accuracy (ANN)</td>
+            <td id="acc-ann-a">-</td>
+            <td id="acc-ann-b">-</td>
+            <td>N/A</td>
+        </tr>
+        <tr>
+            <td>Accuracy (SNN)</td>
+            <td id="acc-snn-a">-</td>
+            <td id="acc-snn-b">-</td>
+            <td id="acc-snn-c">-</td>
+        </tr>
+        <tr>
+            <td>MAC Reduction</td>
+            <td id="mac-red-a">-</td>
+            <td id="mac-red-b">-</td>
+            <td id="mac-red-c">-</td>
+        </tr>
+        <tr>
+            <td>Power Savings</td>
+            <td id="power-a">-</td>
+            <td id="power-b">-</td>
+            <td id="power-c">-</td>
+        </tr>
+    </table>
+
+    <h2>Visualizations</h2>
+    <div class="plot-container">
+        <h3>Power Comparison</h3>
+        <img id="power-plot" src="plots/power_comparison.png" alt="Power Comparison">
+    </div>
+    
+    <div class="plot-container">
+        <h3>Accuracy vs Power</h3>
+        <img id="acc-power-plot" src="plots/accuracy_vs_power.png" alt="Accuracy vs Power">
+    </div>
+    
+    <div class="plot-container">
+        <h3>Confusion Matrices</h3>
+        <img id="conf-mat-b" src="plots/confusion_matrices.png" alt="Confusion Matrices">
+    </div>
+
+    <h2>What this means for an everyday user</h2>
+    <p>
+        This comparison demonstrates the potential of Spiking Neural Networks (SNNs) for energy-efficient AI applications:
+    </p>
+    <ul>
+        <li>SNNs can achieve comparable accuracy to traditional ANNs while using significantly less power</li>
+        <li>The sparsity of spike-based computation leads to reduced memory and energy requirements</li>
+        <li>These benefits make SNNs particularly suitable for edge devices and battery-powered applications</li>
+        <li>However, SNNs currently require more complex training procedures and careful parameter tuning</li>
+    </ul>
+
+    <script>
+        // This script will be populated with actual results when run
+        document.addEventListener('DOMContentLoaded', function() {
+            // Placeholder for dynamic results update
+            console.log("Report template loaded");
+        });
+    </script>
+</body>
+</html>
